@@ -28,7 +28,7 @@ SourceDoc Pro is a free Windows utility that prints VB6 source code with syntax 
 ## Download
 
 [Download SourceDocProSetup_v100.exe]
-https://github.com/MwC- GitHub/ SourceDocPro/releases/download/v1.00/SourceDocProSetup_v100.exe
+https://github.com/MwC-GitHub/SourceDocPro/releases/download/v1.00/SourceDocProSetup_v100.exe
 
 ## Support
 
