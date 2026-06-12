@@ -9,21 +9,21 @@ SourceDoc Pro is a free Windows utility that prints VB6 source code with syntax 
 
 ## Features
 
-•	Syntax highlighting for keywords, comments, strings, and operators
-•	Visual loop bracket connectors showing nested block structure
-•	Procedure dependency reports showing Called By and Calls relationships
-•	Printable Table of Contents listing all project files and procedures
-•	Output to printer, PDF, or text file
-•	Flexible options including paper size, orientation, duplex printing,
-•	margin control, font selection, and aggregate procedure grouping
-•	Optional IDE-style code view mirroring the VB6 IDE appearance
-•	Complete illustrated User Manual included
-•	Simple installer handles all setup automatically
+- Syntax highlighting for keywords, comments, strings, and operators
+- Visual loop bracket connectors showing nested block structure
+- Procedure dependency reports showing Called By and Calls relationships
+- Printable Table of Contents listing all project files and procedures
+- Output to printer, PDF, or text file
+- Flexible options including paper size, orientation, duplex printing,
+- margin control, font selection, and aggregate procedure grouping
+- Optional IDE-style code view mirroring the VB6 IDE appearance
+- Complete illustrated User Manual included
+- Simple installer handles all setup automatically
 
 ## Requirements
 
-•	Windows 7 or later (32-bit or 64-bit)
-•	VB6 runtime (included in installer)
+- Windows 7 or later (32-bit or 64-bit)
+- VB6 runtime (included in installer)
 
 ## Download
 
