@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<XML_DIZ_INFO>
+  <MASTER_PAD_VERSION_INFO>
+    <MASTER_PAD_VERSION>1.15</MASTER_PAD_VERSION>
+    <MASTER_PAD_INFO>Portable Application Description</MASTER_PAD_INFO>
+  </MASTER_PAD_VERSION_INFO>
+
+  <Company_Info>
+    <Company_Name>MWC Freeware</Company_Name>
+    <Company_WebSite_URL>https://github.com/MwC-GitHub/SourceDoc-Pro</Company_WebSite_URL>
+    <Contact_Info>
+      <Author_First_Name>Michael</Author_First_Name>
+      <Author_Last_Name>Cetera</Author_Last_Name>
+      <Author_Email>VB3373@gmail.com</Author_Email>
+    </Contact_Info>
+    <Support_Info>
+      <Sales_Email></Sales_Email>
+      <Support_Email>VB3373@gmail.com</Support_Email>
+      <General_Email>VB3373@gmail.com</General_Email>
+      <Support_URL>mailto:VB3373@gmail.com</Support_URL>
+    </Support_Info>
+  </Company_Info>
+
+  <Program_Info>
+    <Program_Name>SourceDoc Pro</Program_Name>
+    <Program_Version>1.10</Program_Version>
+    <Program_Release_Month>06</Program_Release_Month>
+    <Program_Release_Day>17</Program_Release_Day>
+    <Program_Release_Year>2026</Program_Release_Year>
+    <Program_Cost_Dollars>0</Program_Cost_Dollars>
+    <Program_Cost_Other_Code></Program_Cost_Other_Code>
+    <Program_Cost_Other></Program_Cost_Other>
+    <Program_Type>Freeware</Program_Type>
+    <Program_Release_Status>Minor Update</Program_Release_Status>
+    <Program_Install_Support>Install and Uninstall</Program_Install_Support>
+    <Program_OS_Support>Win7,Win8,Win10,Win11</Program_OS_Support>
+    <Program_Language>English</Program_Language>
+    <Program_Specific_Category>Development</Program_Specific_Category>
+    <Program_Categories>
+      <Category_Class>Development</Category_Class>
+      <Category_Subcategory>Tools &amp; Editors</Category_Subcategory>
+    </Program_Categories>
+    <File_Info>
+      <File_Size_Bytes>2616312</File_Size_Bytes>
+      <File_Size_K>2554</File_Size_K>
+      <File_Size_MB>2.5</File_Size_MB>
+    </File_Info>
+    <Expire_Info>
+      <Has_Expire_Info>N</Has_Expire_Info>
+    </Expire_Info>
+  </Program_Info>
+
+  <Program_Descriptions>
+    <English>
+      <Keywords>VB6, Visual Basic, source code, documentation, printer,
+        syntax highlighting, dependency report, code review</Keywords>
+      <Char_Desc_45>Prints VB6 source code with syntax highlighting</Char_Desc_45>
+      <Char_Desc_80>Prints VB6 source code with highlighting and dependency
+        reports</Char_Desc_80>
+      <Char_Desc_250>SourceDoc Pro prints VB6 source code with syntax
+        highlighting, loop bracket connectors, and procedure dependency
+        reports for developer documentation and code review.</Char_Desc_250>
+      <Char_Desc_450>SourceDoc Pro helps VB6 developers document and review
+        their code by printing source procedures with full syntax
+        highlighting, structured layout, and visual loop bracket
+        connectors. It reads any VB6 project file, lets you select
+        individual modules and procedures, and sends them to a printer,
+        PDF, or text file.</Char_Desc_450>
+      <Char_Desc_2000>SourceDoc Pro helps VB6 developers document and review
+        their code by printing source procedures with full syntax
+        highlighting, structured layout, and visual loop bracket
+        connectors. It reads any VB6 project file, lets you select
+        individual modules and procedures, and sends them to a printer,
+        PDF, or text file with color-coded keywords, comments, strings,
+        and operators. A built-in dependency report shows each
+        procedure's Called By and Calls relationships across the entire
+        project. A printable Table of Contents lists all project files
+        and their procedures, with page references for any printed
+        dependency reports. Flexible options include paper size,
+        orientation, duplex printing, margin control, font selection,
+        and aggregate procedure grouping. SourceDoc Pro includes a
+        simple installer that handles all setup automatically, and comes
+        with a complete User Manual.
+
+        Version History:
+        1.10 - Added user-selectable theme color option; improved
+               printer error handling with friendly message and
+               clipboard copy; added safety net for file printing
+               of procedures too large for spooling resources;
+               fixed wrap algorithm break point selection bug;
+               new default highlight colors
+        1.00 - Original release
+      </Char_Desc_2000>
+    </English>
+  </Program_Descriptions>
+
+  <Web_Info>
+    <Application_URLs>
+      <Application_Info_URL>https://github.com/MwC-GitHub/SourceDoc-Pro</Application_Info_URL>
+      <Application_Order_URL></Application_Order_URL>
+      <Application_Screenshot_URL></Application_Screenshot_URL>
+      <Application_Icon_URL></Application_Icon_URL>
+      <Application_Download_URL>https://github.com/MwC-GitHub/SourceDoc-Pro/releases/download/V1.10/SourceDocProSetup_v110.exe</Application_Download_URL>
+      <Application_XML_File_URL>https://raw.githubusercontent.com/MwC-GitHub/SourceDoc-Pro/main/SourceDocPro.pad</Application_XML_File_URL>
+    </Application_URLs>
+    <Support_URLs>
+      <Orders_Support_URL></Orders_Support_URL>
+      <General_Support_URL>mailto:VB3373@gmail.com</General_Support_URL>
+    </Support_URLs>
+  </Web_Info>
+
+  <Permissions>
+    <Distribution_Permissions>SourceDoc Pro may be freely distributed
+      provided it is not modified and no charge is made beyond reasonable
+      media costs.</Distribution_Permissions>
+    <EULA_URL></EULA_URL>
+  </Permissions>
+
+</XML_DIZ_INFO>
