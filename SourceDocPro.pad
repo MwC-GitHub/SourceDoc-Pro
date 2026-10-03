@@ -23,15 +23,15 @@
 
   <Program_Info>
     <Program_Name>SourceDoc Pro</Program_Name>
-    <Program_Version>2.00</Program_Version>
-    <Program_Release_Month>08</Program_Release_Month>
-    <Program_Release_Day>05</Program_Release_Day>
+    <Program_Version>2.10</Program_Version>
+    <Program_Release_Month>10</Program_Release_Month>
+    <Program_Release_Day>01</Program_Release_Day>
     <Program_Release_Year>2026</Program_Release_Year>
     <Program_Cost_Dollars>0</Program_Cost_Dollars>
     <Program_Cost_Other_Code></Program_Cost_Other_Code>
     <Program_Cost_Other></Program_Cost_Other>
     <Program_Type>Freeware</Program_Type>
-    <Program_Release_Status>Major Update</Program_Release_Status>
+    <Program_Release_Status>Minor Update</Program_Release_Status>
     <Program_Install_Support>Install and Uninstall</Program_Install_Support>
     <Program_OS_Support>Win7,Win8,Win10,Win11</Program_OS_Support>
     <Program_Language>English</Program_Language>
@@ -40,13 +40,14 @@
       <Category_Class>Development</Category_Class>
       <Category_Subcategory>Tools &amp; Editors</Category_Subcategory>
     </Program_Categories>
-    <!-- Sizes below are SourceDocProSetup_v200.exe as built 2026-08-05.
-         Roughly double v1.10's 2,616,312 bytes because 2.00 bundles the
-         qpdf binaries.  Re-take these if the installer is ever rebuilt. -->
+    <!-- Sizes below are SourceDocProSetup_v210.exe as built 2026-10-03.
+         Up from v2.00's 5,793,737 bytes because 2.10 bundles the
+         Hunspell spell-check files.  Re-take these if the installer is
+         ever rebuilt. -->
     <File_Info>
-      <File_Size_Bytes>5793737</File_Size_Bytes>
-      <File_Size_K>5658</File_Size_K>
-      <File_Size_MB>5.5</File_Size_MB>
+      <File_Size_Bytes>7075902</File_Size_Bytes>
+      <File_Size_K>6910</File_Size_K>
+      <File_Size_MB>6.7</File_Size_MB>
     </File_Info>
     <Expire_Info>
       <Has_Expire_Info>N</Has_Expire_Info>
@@ -68,7 +69,8 @@
         highlighting, structured layout, and visual loop bracket
         connectors. It reads any VB6 project file, lets you select
         individual modules and procedures, and sends them to a printer,
-        PDF, or text file.</Char_Desc_450>
+        PDF, or text file. Developer Aids tidy the source in place, with
+        automatic backups.</Char_Desc_450>
       <Char_Desc_2000>SourceDoc Pro helps VB6 developers document and review
         their code by printing source procedures with full syntax
         highlighting, structured layout, and visual loop bracket
@@ -82,25 +84,25 @@
         layered, and prints a menu tree. A printable Table of
         Contents lists all project files
         and their procedures, with page references for any printed
-        dependency reports. Flexible options include paper size,
+        dependency reports. A Developer Aids menu edits VB6 source in
+        place: header templates, indenting, line wrapping, line
+        numbering, spell check and dead-code checks, all with automatic
+        backups and restore. Flexible options include paper size,
         orientation, duplex printing, margin control, font selection,
         and aggregate procedure grouping. SourceDoc Pro includes a
         simple installer that handles all setup automatically, and comes
         with a complete User Manual.
 
         Version History:
-        2.00 - Added Form Image rendering showing all controls with
-               their positions and names; images showing layering of
-               overlapping controls; a menu tree page; new developer
-               tools; more suppressible messages; revised User Manual;
-               fixed missing print lines, a read buffer limit, and
-               wrapped-line bold formatting
-        1.10 - Added user-selectable theme color option; improved
-               printer error handling with friendly message and
-               clipboard copy; added safety net for file printing
-               of procedures too large for spooling resources;
-               fixed wrap algorithm break point selection bug;
-               new default highlight colors
+        2.10 - New Developer Aids menu: header aids, indent, wrap,
+        shrink, Dim relocation, sort, line numbering, spell check,
+        project hygiene and statistics, with backups and restore;
+        duplex and binding fixes; revised User Manual
+        2.00 - Form Image rendering with control layering and a menu
+        tree; developer tools; more suppressible messages; revised
+        User Manual; print fixes
+        1.10 - Theme color option; friendlier printer errors; spool
+        safety net for large procedures; wrap fix; new default colors
         1.00 - Original release
       </Char_Desc_2000>
     </English>
@@ -112,7 +114,7 @@
       <Application_Order_URL></Application_Order_URL>
       <Application_Screenshot_URL></Application_Screenshot_URL>
       <Application_Icon_URL></Application_Icon_URL>
-      <Application_Download_URL>https://github.com/MwC-GitHub/SourceDoc-Pro/releases/download/V2.00/SourceDocProSetup_v200.exe</Application_Download_URL>
+      <Application_Download_URL>https://github.com/MwC-GitHub/SourceDoc-Pro/releases/download/V2.10/SourceDocProSetup_v210.exe</Application_Download_URL>
       <Application_XML_File_URL>https://raw.githubusercontent.com/MwC-GitHub/SourceDoc-Pro/main/SourceDocPro.pad</Application_XML_File_URL>
     </Application_URLs>
     <Support_URLs>
