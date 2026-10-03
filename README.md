@@ -1,5 +1,5 @@
 # SourceDoc Pro
-**Version 2.00 — August 2026**
+**Version 2.10 — October 2026**
 *MWC Freeware — Michael W. Cetera*
 
 ## Overview
@@ -9,9 +9,11 @@ with syntax highlighting, loop bracket connectors, form image rendering,
 and procedure dependency reports for developer documentation and code
 review.
 
-SourceDoc Pro now includes several Developer Aids that can modify the
-project code, with more tools to come in future releases (user
-suggestions welcomed).
+Version 2.10 greatly expands the Developer Aids menu, which edits the
+project's source in place: file and procedure headers, indenting,
+long-line wrapping, line numbering, spell checking, project hygiene
+checks and project statistics, all with automatic backups and restore
+(user suggestions for more aids are welcomed).
 
 ## What's New
 
@@ -20,6 +22,37 @@ for version history.
 
 ## Version History
 
+- **2.10:** expanded the Developer Aids menu: Insert File Header and Insert
+  Procedure Header from editable templates, including aids to relocate
+  headers and to convert legacy headers; Indent Code Lines; Wrap Too Long
+  Lines; Shrink Multiple Blank Lines to 1; Move All Procedure Dimension
+  Statements; Sort File Procedures; Spell Check of string literals and
+  comments, with a custom dictionary and ignore list; Add and Remove Line
+  Numbers; View Statistics; and a new Project Hygiene group that finds
+  Variants defined by default, dead code, project files not included in
+  the .vbp, missing Option Explicit statements, procedures and parameters
+  without an explicit scope, and .vbp references that are not registered;
+  View Aid Log shows what each aid changed.
+  Improvements: a Developer Aid backs up each file it changes once each
+  time a project is opened, as a whole file, and Restore Edited
+  File/Procedure puts it back; backups older than 60 days are deleted when
+  a project is opened — change or turn this off in File | User Options;
+  after an aid has changed the project, further aids can still be used —
+  reload the project with File | Open to restore selection, printing and
+  View Statistics; settings and saved data now live in a new MWCFreeware
+  folder, with each project's data and backups kept in its own folder, and
+  an existing installation's data is moved there automatically on first
+  run; the default header templates are installed for all projects and
+  are never overwritten by a later installation; printing on one side puts 
+  the binding margin on every page, and
+  duplex printing turns the sheet on the edge that suits the binding edge;
+  User Manual revised, with a new Developer Aids chapter.
+  Bug fixes: a line-numbered procedure printed with loop brackets now
+  starts the procedure signature, its header and its End line at the left
+  margin, as in the IDE, rather than after the space reserved for line
+  numbers, which made lines that fit in the IDE too long in the output;
+  the program no longer starts a second copy of itself when one is already
+  running; the color picker now opens on the color currently set
 - **2.00:** added Form Image rendering showing all controls with their
   positions and names on the form; separate images showing the layering of
   overlapping controls; a separate page showing a complete menu tree for the
@@ -94,10 +127,18 @@ for version history.
 - Complete menu tree page for each form
 - Procedure dependency reports showing Called By and Calls relationships
 - Printable Table of Contents listing all project files and procedures
-- Built-in developer tools
+- Developer Aids that edit the source in place: file and procedure
+  headers, indenting, long-line wrapping, blank-line shrinking, Dim
+  relocation, procedure sorting, line numbering and spell checking
+- Project Hygiene checks for Variants defined by default, dead code,
+  files missing from the .vbp, missing Option Explicit, unspecified
+  procedure and parameter scope, and unregistered references
+- Project statistics
+- Automatic backups of every file an aid changes, with restore
 - Output to printer, PDF, or text file
 - Flexible options including paper size, orientation, duplex printing,
-  margin control, font selection, and aggregate procedure grouping
+  binding margin, margin control, font selection, and aggregate procedure
+  grouping
 - Optional IDE-style code view mirroring the VB6 IDE appearance
 - Viewable/Printable User Manual included
 - Simple installer handles all setup automatically
@@ -109,7 +150,7 @@ for version history.
 
 ## Download
 
-[Download SourceDocProSetup_v200.exe](https://github.com/MwC-GitHub/SourceDoc-Pro/releases/download/V2.00/SourceDocProSetup_v200.exe)
+[Download SourceDocProSetup_v210.exe](https://github.com/MwC-GitHub/SourceDoc-Pro/releases/download/V2.10/SourceDocProSetup_v210.exe)
 
 ## Support
 
@@ -128,3 +169,8 @@ Copyright 2025-2026 Michael W. Cetera. All Rights Reserved.
 
 SourceDoc Pro bundles qpdf (Apache License 2.0) to combine split PDF
 output. The qpdf license is installed under `qpdf Files\`.
+
+SourceDoc Pro bundles Hunspell (MPL 1.1 / GPL 2 / LGPL 2.1) and the
+en_US dictionary for its Spell Check aid, together with the MinGW runtime
+libraries Hunspell needs. Their licenses are installed under
+`Hunspell Files\Licenses\`.
